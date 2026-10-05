@@ -60,7 +60,7 @@ namespace Csharp
         System.IO.MemoryStream ms = new System.IO.MemoryStream();
         Task timeout;
         string fn = "";
-        static string token = "7174793203:AAEpmvOzbL-QghQOk8U0xYE0jzCwfoXk2Vo";
+        static string token = "";
         static Telegram.Bot.TelegramBotClient bot = new TelegramBotClient(token);
         public Form1()
         {
